@@ -6,6 +6,11 @@ namespace IntroToCSharp
 {
     class GradeCalculator
     {
+        /// <summary>
+        /// Compute the average of the grade 
+        /// </summary>
+        /// <param name="grade"></param>
+        /// <returns></returns>
         public double ComputeGrade(int[] grade)
         {
             double average;
