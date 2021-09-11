@@ -26,5 +26,16 @@ namespace IntroToCSharp
 
             return average;
         }
+
+        /// <summary>
+        /// Get the frequent recurring score
+        /// </summary>
+        /// <param name="grade"></param>
+        /// <returns></returns>
+        public int GetMode(int[] grade)
+        {
+            // todo: not implemented
+            return 0;
+        }
     }
 }
