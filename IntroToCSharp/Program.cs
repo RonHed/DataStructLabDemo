@@ -85,6 +85,7 @@ namespace IntroToCSharp
 
             var averageScore = gradeCalculator.ComputeGrade(grades);
 
+            // Added a comment here
             Console.WriteLine($"Average score: {averageScore.ToString("N4")}");
 
 
